@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Countdown Days</string>
+    <string name="widget_name_1x1">Countdown Days</string>
+    <string name="widget_name_2x1">Countdown Days 2x1</string>
+    <string name="title_pref_name">Preferences</string>
+    <string name="label_status">loading…</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_dismiss">Dismiss</string>
+    <string name="label_start_date">Since</string>
+    <string name="label_day_left">day left</string>
+    <string name="label_days_left">days left</string>
+    <string name="label_day_since">day since</string>
+    <string name="label_days_since">days since</string>
+    <string name="label_today">today</string>
+    <string name="label_zero">0</string>
+    <string name="label_options">Options</string>
+    <string name="label_about">About</string>
+    
+    <string name="pref_target_date">Countdown to date</string>
+    <string name="pref_show_days_summary">Select day types to show</string>
+    <string name="pref_show_days_prompt">Days to show</string>
+    <string name="pref_show_progress">Show progress</string>
+    <string name="pref_choose_background_summary">Select a background image</string>
+    <string name="pref_choose_alpha">Transparency</string>
+    <string name="pref_show_event_name">Show event name</string>
+    <string name="pref_event_name">Event name to show</string>
+    <string name="pref_event_name_summary">Select a custom event name</string>
+    <string name="pref_event_name_hint">Name of the event</string>
+
+    <string-array name="pref_show_days_array">
+        <item>Show calendar and weekdays</item>
+        <item>Show calendar days only</item>
+        <item>Show weekdays only</item>
+    </string-array>
+
+</resources>

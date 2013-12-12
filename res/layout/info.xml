@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- most important part for relative layout is layout_above !!! -->
+    <WebView
+	    android:id="@+id/wv_info"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_above="@+id/layoutButtons" />
+	
+	<LinearLayout
+	    android:id="@+id/layoutButtons"
+	    style="@android:style/ButtonBar"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+	    android:orientation="horizontal"
+	    android:paddingBottom="5dp"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp"
+	    android:paddingTop="5dp" >
+		
+		<Button
+		    android:id="@+id/buttonDismiss"
+		    style="@style/ButtonTextStyle"
+		    android:layout_gravity="center"
+		    android:layout_width="150dip"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/black_button"
+		    android:text="@string/label_dismiss" >
+
+		</Button>
+	</LinearLayout>
+</RelativeLayout>

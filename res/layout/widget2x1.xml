@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+	android:layout_height="80dp"
+	android:paddingLeft="8dp"
+	android:paddingRight="8dp"
+	android:paddingTop="8dp"
+	android:paddingBottom="8dp"
+	android:id="@+id/counter_widget">
+
+	<ImageView
+	    android:id="@+id/image_back"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_centerInParent="true"
+	    android:contentDescription="@string/app_name"
+	    android:scaleType="fitCenter"
+	    android:src="@drawable/back2x1" />
+
+	<LinearLayout android:id="@+id/layout_counters" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+		android:layout_centerInParent="true"
+		android:orientation="horizontal">
+		<TextView
+			android:id="@+id/text_calendar_days"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			style="@style/counter"
+			android:shadowColor="@color/transparentGray"
+			android:shadowDx="2"
+			android:shadowDy="2"
+			android:shadowRadius="1.1"
+			android:text="@string/label_zero"
+			android:textSize="26dp"
+			/>
+		<TextView
+			android:id="@+id/text_week_days"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			style="@style/counter"
+			android:shadowColor="@color/transparentGray"
+			android:shadowDx="1"
+			android:shadowDy="1"
+			android:shadowRadius="0.8"
+			android:paddingLeft="2dp"
+			android:text="@string/label_zero"
+			android:textSize="16dp"
+			/>
+	</LinearLayout>
+	<TextView
+		android:id="@+id/text_footer"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:paddingBottom="0dp"
+		style="@style/footer"
+		android:text="@string/label_days_left"
+		android:textSize="10dp"
+		/>
+
+	<LinearLayout
+		android:id="@+id/layout_progress" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+		android:layout_alignBottom="@id/layout_counters"
+		android:layout_centerInParent="true"
+		android:orientation="horizontal">
+		<ProgressBar
+		    android:id="@+id/progress_days"
+		    style="?android:attr/progressBarStyleHorizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="3dp"
+		    android:paddingLeft="8dp"
+		    android:paddingRight="8dp"
+		    android:progress="75" />
+	</LinearLayout>
+ 
+</RelativeLayout>

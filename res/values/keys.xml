@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_name">prefs</string>
+    <string name="pref_target_date_key">pref_target_date_key</string>
+    <!-- deprecated, use the one below -->
+    <string name="pref_show_week_days_key">pref_week_days_key</string>
+    <string name="pref_show_days_key">pref_days_key</string>
+    <string name="pref_show_progress_key">pref_progress_key</string>
+    <string name="pref_start_date_key">pref_start_date_key</string>
+    <string name="pref_background_index_key">pref_background_index_key</string>
+    <string name="pref_alpha_key">pref_alpha_key</string>
+    <string name="pref_show_event_name_key">pref_show_event_name_key</string>
+    <string name="pref_event_name_key">pref_event_name_key</string>
+    
+    <string name="info_page_key">info.html</string>
+
+</resources>

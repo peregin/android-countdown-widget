@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minHeight="72dip"
+    android:minWidth="146dip"
+    android:initialLayout="@layout/widget2x1"
+	android:label="@string/widget_name_2x1"
+	android:configure="peregin.android.countdown.CountdownPreferences"
+    android:updatePeriodMillis="3600000" >
+</appwidget-provider>

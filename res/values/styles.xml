@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="image_gallery"> 
+        <attr name="android:galleryItemBackground" /> 
+    </declare-styleable>
+
+    <style name="counter" parent="@android:style/Widget.TextView">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="footer" parent="@android:style/Widget.TextView">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+</resources>
