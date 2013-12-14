@@ -1,6 +1,6 @@
 # Countdown Days Widget For Android
 
-[logo]: http://www.peregin.com/apps/countdown/100_icon.jpg "Countdown Days"
+![logo](http://www.peregin.com/apps/countdown/100_icon.jpg "Countdown Days")
 
 The widget will help you to countdown the days until a given date.
 It shows the remaining days or even the working days left if you are interested in such a counter.
@@ -26,11 +26,11 @@ I've got a lot of feedback, ideas and comments, here are the upcoming items:
 This is how the widget started, I couldn't find a simple widget which counts the working days as well, so I decided to write one :)
 At the very beginning I just sketched how the widget would look like:
 
-[start]: http://www.peregin.com/apps/countdown/start.jpg "Sketch"
+![start](http://www.peregin.com/apps/countdown/start.jpg "Sketch")
 
 Then the next step was to prepare the vector based graphics with Inkscape:
 
-[graphics]: http://www.peregin.com/apps/countdown/finish.jpg "Graphics"
+![graphics](http://www.peregin.com/apps/countdown/finish.jpg "Graphics")
 
 ## About
 
