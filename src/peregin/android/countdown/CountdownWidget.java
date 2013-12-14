@@ -14,7 +14,7 @@ import android.net.Uri;
 import android.util.Log;
 import android.view.View;
 import android.widget.RemoteViews;
-import peregin.util.DateUtil;
+import peregin.android.countdown.util.DateUtil;
 
 /**
  * Main entry point of the widget.

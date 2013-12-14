@@ -3,8 +3,8 @@ package peregin.android.countdown;
 import java.util.ArrayList;
 import java.util.List;
 
-import peregin.android.paint.ImageColorer;
-import peregin.android.util.UnitConverter;
+import peregin.android.countdown.util.ImageColorer;
+import peregin.android.countdown.util.UnitConverter;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

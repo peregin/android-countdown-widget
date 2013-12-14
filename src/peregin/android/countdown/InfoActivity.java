@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.webkit.WebView;
 import android.widget.Button;
-import peregin.android.util.AppInfo;
-import peregin.android.util.Io;
+import peregin.android.countdown.util.AppInfo;
+import peregin.android.countdown.util.Io;
 
 import java.io.IOException;
 import java.io.InputStream;

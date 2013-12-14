@@ -5,7 +5,6 @@ import java.util.Date;
 import java.util.Locale;
 
 import android.widget.*;
-import peregin.util.DateUtil;
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
@@ -15,6 +14,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import peregin.android.countdown.util.DateUtil;
 
 public class CountdownPreferences extends Activity {
 
