@@ -4,6 +4,9 @@ import java.util.Calendar;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * The unit tests are in a different project.
+ */
 public class DateUtil {
 
     private static final int MILLISECONDS_IN_DAY = 1000 * 60 * 60 * 24;
